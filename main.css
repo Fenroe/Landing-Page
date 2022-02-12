@@ -1,2 +1,23 @@
 @import url("./reset.css");
 
+:root {
+    /* colours */
+    --hero-footer-background-color: #1F2937;
+    --hero-main-text-color: #F9FAF8;
+    --hero-secondary-text-color: #E5E7EB;
+    --header-logo-text-color: #F9FAF8;
+    --button-color: #3882F6;
+    --feature-header-text-color: #1F2937;
+    --testimonial-background-color: #E5E7EB;
+    --testimonial-text-color: #1F2937;
+    /* font-weights */
+    --hero-main-text-font-weight: extra-bold;
+    --feature-header-text-font-weight: extra-bold;
+    --testimonial-text-font-weight: light-italic;
+    /* font-size */
+    --hero-main-text-font-size: 48px;
+    --hero-secondary-text-font-size: 18px;
+    --feature-header-text-font-size: 36px;
+    --testimonial-text-font-size: 36px;
+}
+
