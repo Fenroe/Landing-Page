@@ -53,7 +53,7 @@ body {
 /* main */
 
 section {
-    padding: 0 15rem;
+    padding: 5rem 15rem;
 }
 
 /* hero-section */
@@ -62,8 +62,6 @@ section {
     display: flex;
     align-items: center;
     background-color: var(--hero-footer-background-color);
-    padding-top: 5rem;
-    padding-bottom: 5rem;
 }
 
 .hero-left {
@@ -75,6 +73,7 @@ section {
 
 .hero-heading {
     font-size: var(--hero-main-text-font-size);
+    font-weight: var(--hero-main-text-font-weight);
     color: var(--hero-main-text-color);
 }
 
@@ -88,8 +87,9 @@ section {
     color: var(--hero-main-text-color);
     width: 80px;
     outline: none;
-    border: none;
+    border: 1px solid var(--button-color);
     padding: 8px;
+    border-radius: 5px;
 }
 
 .hero-right {
@@ -103,4 +103,21 @@ section {
     height: 14rem;
     width: 30rem;
     background-color: grey;
+}
+
+/* feature section */
+
+.feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-heading {
+    font-size: var(--feature-header-text-font-size);
+    font-weight: var(--feature-header-text-font-weight);
+}
+
+.feature-bottom {
+    display: flex;
 }
