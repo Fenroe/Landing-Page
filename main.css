@@ -17,7 +17,90 @@
     /* font-size */
     --hero-main-text-font-size: 48px;
     --hero-secondary-text-font-size: 18px;
+    --header-logo-text-font-size: 24px;
     --feature-header-text-font-size: 36px;
     --testimonial-text-font-size: 36px;
 }
 
+body {
+    font-family: Arial;
+}
+
+/* header */ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--hero-footer-background-color);
+    padding: 1rem 15rem;
+}
+.header-logo {
+    color: var(--header-logo-text-color);
+    font-size: var(--header-logo-text-font-size);
+}
+
+.header-link-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: var(--hero-secondary-text-color);
+    font-size: var(--hero-secondary-text-font-size);
+    margin: 16px;
+}
+
+/* main */
+
+section {
+    padding: 0 15rem;
+}
+
+/* hero-section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: var(--hero-footer-background-color);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 50%;
+}
+
+.hero-heading {
+    font-size: var(--hero-main-text-font-size);
+    color: var(--hero-main-text-color);
+}
+
+.hero-text {
+    font-size: var(--hero-secondary-text-font-size);
+    color: var(--hero-secondary-text-color);
+}
+
+.hero-btn {
+    background-color: var(--button-color);
+    color: var(--hero-main-text-color);
+    width: 80px;
+    outline: none;
+    border: none;
+    padding: 8px;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-img {
+    height: 14rem;
+    width: 30rem;
+    background-color: grey;
+}
